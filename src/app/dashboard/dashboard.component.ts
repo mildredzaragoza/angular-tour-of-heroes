@@ -7,7 +7,19 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css'],
-  
+  animations: [
+    trigger('inOut', [
+      state('hover', style({
+        backgroundColor: 'black'
+      })),
+      state('none', style({
+        backgroundColor: '#3f525c'
+      })),
+      transition('hover => none', [
+        animate('0.5s')
+      ]),
+    ]),
+  ],
 })
 export class DashboardComponent implements OnInit{
   heroes: Hero[] = [];
