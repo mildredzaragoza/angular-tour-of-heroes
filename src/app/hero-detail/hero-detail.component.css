@@ -1,25 +1,54 @@
 /* HeroDetailComponent's private CSS styles */
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-top: 60px;
+  border: 2px solid gainsboro;
+  border-radius: 8px;
+  padding-bottom: 20px;
+}
+
 label {
   color: #435960;
   font-weight: bold;
 }
 input {
-  font-size: 1em;
+  font-size: 1.8em;
   padding: .5rem;
 }
+
+.buttons-container{
+  display: flex;
+  justify-content:flex-end;
+}
+
 button {
   margin-top: 20px;
   margin-right: .5rem;
   background-color: #eee;
   padding: 1rem;
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: 2rem;
+  width: 100px;
+  border: none;
 }
-button:hover {
+.back-button:hover {
   background-color: #cfd8dc;
+}
+.save-button:hover{
+  background-color: greenyellow;
+  color: black;
 }
 button:disabled {
   background-color: #eee;
   color: #ccc;
   cursor: auto;
+}
+.back-button{
+  margin-right: 8px;
+}
+.save-button{
+  background-color: green;
+  color: whitesmoke;
 }

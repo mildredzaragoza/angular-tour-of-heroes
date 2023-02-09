@@ -3,18 +3,27 @@
 label {
     display: block;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-top: 1rem;
-    margin-bottom: .5rem;
-  
-  }
-  input {
-    padding: .5rem;
-    width: 100%;
-    max-width: 600px;
-    box-sizing: border-box;
-    display: block;
-  }
+    margin-bottom: .5rem;  
+}
+
+.search-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: .5rem;
+  width: 50%;
+  max-width: 520px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: gray;
+  display: block;
+}
   
   input:focus {
     outline: #336699 auto 1px;
@@ -34,6 +43,7 @@ label {
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    margin-top: 10px;
   }
   
   .search-result li a:hover {

@@ -1,13 +1,13 @@
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
-  { id: 12, name: 'Dr. Nice' },
-  { id: 13, name: 'Bombasto' },
-  { id: 14, name: 'Celeritas' },
-  { id: 15, name: 'Magneta' },
-  { id: 16, name: 'RubberMan' },
-  { id: 17, name: 'Dynama' },
-  { id: 18, name: 'Dr. IQ' },
-  { id: 19, name: 'Magma' },
-  { id: 20, name: 'Tornado' }
+  new Hero(12, 'Dr. Nice',  'Fetch any object at any distance', 'Leslie Rollover'),
+  new Hero(13, 'Bombasto', 'Fetch any object at any distance', 'Leslie Rollover' ),
+  new Hero(14, 'Celeritas' , 'Fetch any object at any distance', 'Leslie Rollover' ),
+  new Hero(15, 'Magneta', 'Fetch any object at any distance', 'Leslie Rollover' ),
+  new Hero (16, 'RubberMan', 'Fetch any object at any distance', 'Leslie Rollover' ),
+  new Hero(17, 'Dynama', 'Fetch any object at any distance', 'Leslie Rollover' ),
+  new Hero(18, 'Dr. IQ', 'Fetch any object at any distance', 'Leslie Rollover'),
+  new Hero(19, 'Magma', 'Fetch any object at any distance', 'Leslie Rollover' ),
+  new Hero(20, 'Tornado', 'Fetch any object at any distance', 'Leslie Rollover')
 ];
