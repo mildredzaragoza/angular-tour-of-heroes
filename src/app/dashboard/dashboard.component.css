@@ -38,4 +38,6 @@ a {
 
 a:hover {
   background-color: black;
+  transform: scale(0.8rem);
+  transition-delay: 1s;
 }
